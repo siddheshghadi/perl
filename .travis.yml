@@ -5,10 +5,9 @@ arch:
 #language: perl
 sudo: required
 script:
-  - echo "%"
-  - cat output.log
   - \curl -L http://install.perlbrew.pl | sudo bash
   - source ~/perl5/perlbrew/etc/bashrc
   - curl -L http://cpanmin.us | perl - --sudo App::cpanminus
   - perl --version
-  - cpanm --version
+  - cpanm --version > log
+  - cat log
