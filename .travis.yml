@@ -3,8 +3,10 @@ arch:
   - ppc64le
 
 #language: perl
-
+sudo required
 script:
   - echo "%"
   - cat output.log
+  - \curl -L http://install.perlbrew.pl | sudo bash
+  - source ~/perl5/perlbrew/etc/bashrc
   - cpanm --version
