@@ -9,5 +9,8 @@ script:
   - source ~/perl5/perlbrew/etc/bashrc
   - curl -L http://cpanmin.us | perl - --sudo App::cpanminus
   - perl --version
+  - cpanm --help         # get help
+  - cpanm URI            # install the URI module from CPAN
+  - cpanm DateTime@1.44  # install version
   - cpanm --version > log
   - cat log
