@@ -9,7 +9,6 @@ script:
   - cat output.log
   - \curl -L http://install.perlbrew.pl | sudo bash
   - source ~/perl5/perlbrew/etc/bashrc
-  - yes|sudo cpan App::perlbrew
-  - perlbrew init
+  - curl -L http://cpanmin.us | perl - --sudo App::cpanminus
   - perl --version
   - cpanm --version
