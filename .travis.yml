@@ -3,7 +3,7 @@ arch:
   - ppc64le
 
 #language: perl
-sudo required
+sudo: required
 script:
   - echo "%"
   - cat output.log
