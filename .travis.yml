@@ -2,7 +2,9 @@ arch:
   - amd64
   - ppc64le
 
-language: perl
+#language: perl
 
 script:
   - echo "%"
+  - cat output.log
+  - cpanm --version
