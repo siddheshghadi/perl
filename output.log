@@ -1,0 +1,27 @@
+cpanm (App::cpanminus) version 1.7044 (/home/travis/perl5/perlbrew/bin/cpanm)
+perl version 5.014004 (/home/travis/perl5/perlbrew/perls/5.14.4/bin/perl)
+
+  %Config:
+    archname=x86_64-linux
+    installsitelib=/home/travis/perl5/perlbrew/perls/5.14.4/lib/site_perl/5.14.4
+    installsitebin=/home/travis/perl5/perlbrew/perls/5.14.4/bin
+    installman1dir=/home/travis/perl5/perlbrew/perls/5.14.4/man/man1
+    installman3dir=/home/travis/perl5/perlbrew/perls/5.14.4/man/man3
+    sitearchexp=/home/travis/perl5/perlbrew/perls/5.14.4/lib/site_perl/5.14.4/x86_64-linux
+    sitelibexp=/home/travis/perl5/perlbrew/perls/5.14.4/lib/site_perl/5.14.4
+    archlibexp=/home/travis/perl5/perlbrew/perls/5.14.4/lib/5.14.4/x86_64-linux
+    privlibexp=/home/travis/perl5/perlbrew/perls/5.14.4/lib/5.14.4
+  %ENV:
+    PERLBREW_HOME=/home/travis/.perlbrew
+    PERLBREW_MANPATH=/home/travis/perl5/perlbrew/perls/5.14/man
+    PERLBREW_PATH=/home/travis/perl5/perlbrew/bin:/home/travis/perl5/perlbrew/perls/5.14/bin
+    PERLBREW_PERL=5.14
+    PERLBREW_ROOT=/home/travis/perl5/perlbrew
+    PERLBREW_SHELLRC_VERSION=0.86
+    PERLBREW_VERSION=0.88
+  @INC:
+    FatPacked::37906048=HASH(0x2426680)
+    /home/travis/perl5/perlbrew/perls/5.14.4/lib/site_perl/5.14.4/x86_64-linux
+    /home/travis/perl5/perlbrew/perls/5.14.4/lib/site_perl/5.14.4
+    /home/travis/perl5/perlbrew/perls/5.14.4/lib/5.14.4/x86_64-linux
+    /home/travis/perl5/perlbrew/perls/5.14.4/lib/5.14.4
