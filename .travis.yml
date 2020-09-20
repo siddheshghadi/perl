@@ -10,6 +10,6 @@ script:
   - curl -L http://cpanmin.us | perl - --sudo App::cpanminus
   - perl --version
   - sudo apt install strace -y
-  - sudo strace - c cpanm --help         # get help
+  - sudo strace -c cpanm --help         # get help
   - cpanm URI            # install the URI module from CPAN
   - cpanm --version
