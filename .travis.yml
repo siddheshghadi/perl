@@ -8,6 +8,14 @@ python:
   - 3.7
   - 3.6
   - 3.4
+  - 3.2
+  - 3.3
+
+exclude:
+  - arch: ppc64le
+    python:
+      - 3.2
+      - 3.3
 
 script:
   - python --version
