@@ -11,6 +11,7 @@ python:
   - 3.2
   - 3.3
 
+matrix: 
 exclude:
   - arch: ppc64le
     python:
