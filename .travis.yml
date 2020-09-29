@@ -7,16 +7,18 @@ language: python
 python:
   - 3.7
   - 3.6
-  - 3.4
-  - 3.2
   - 3.3
+  - 3.2
+  - pypy2
 
 jobs: 
   exclude:
-  - arch: ppc64le
-    python:
-      - 3.2
-      - 3.3
-
+    - arch: ppc64le
+      python: 3.3
+    - arch: ppc64le
+      python: 3.2
+    - arch: ppc64le
+      python: pypy2
+ 
 script:
   - python --version
