@@ -2,14 +2,12 @@ arch:
   - amd64
   - ppc64le
 
-#language: perl
-sudo: required
+language: python
+
+python:
+  - 3.7
+  - 3.6
+  - 3.4
+
 script:
-  - \curl -L http://install.perlbrew.pl | sudo bash
-  - source ~/perl5/perlbrew/etc/bashrc
-  - curl -L http://cpanmin.us | perl - --sudo App::cpanminus
-  - perl --version
-  - sudo apt install strace -y
-  - sudo strace -c cpanm --help         # get help
-  - cpanm URI            # install the URI module from CPAN
-  - cpanm --version
+  - python --version
